@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
+/* Variáveis */
+:root {
+    /* Paleta de cores */
+    --cor: rgb(0, 238, 12);
+}
+
+
+
+
+
+
+
 body {
     background-color: rgb(16, 18, 26);
 }
 
 nav {
-    margin: 0px;
     font-family: 'Roboto';
     background-color: rgb(204, 71, 18);
     border-radius: 5px;
 }
 
 nav h1 {
+    margin-top: 20px;
+    margin-left: 1%;
     color: black;
     font-size: xxx-large;
-    margin-left: 1%;
-    width: 23.2%;
+    width: 24%;
     background-color: white;
     border-radius: 5px;
     transform: skew(-10deg);
@@ -30,4 +42,11 @@ nav a {
     padding: 0.3em;
     background-color: rgba(255, 255, 255, 0.082);
     border-radius: 5px;
+}
+
+.corpo {
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgba(97, 94, 83, 0.233);
+    /* background-color: var(--cor); */
 }
