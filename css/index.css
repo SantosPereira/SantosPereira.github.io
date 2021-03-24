@@ -5,12 +5,14 @@ body {
 }
 
 nav {
+    margin: 0px;
     font-family: 'Roboto';
     background-color: rgb(204, 71, 18);
     border-radius: 5px;
 }
 
 nav h1 {
+    color: black;
     font-size: xxx-large;
     margin-left: 1%;
     width: 23.2%;
