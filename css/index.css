@@ -33,10 +33,14 @@ header a {
 
 #linkedin {
     margin-top: 6px;
+    border-bottom-style: none;
+    /* border-bottom-color: transparent; */
 }
 #instagram {
     margin-top: 12px;
-    margin-left: -25px;
+    margin-left: -35px;
+    border-bottom-style: none;
+    /* border-bottom-color: transparent; */
 }
 
 #corpo {
