@@ -6,47 +6,41 @@
     --cor: rgb(0, 238, 12);
 }
 
-
-
-
-
-
-
 body {
+    color: aliceblue;
     background-color: rgb(16, 18, 26);
 }
 
-nav {
-    font-family: 'Roboto';
-    background-color: rgb(204, 71, 18);
-    border-radius: 5px;
+#titulo {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 300px;
 }
 
-nav h1 {
-    margin-top: 20px;
-    margin-left: 1%;
-    color: black;
-    font-size: xxx-large;
-    width: 24%;
-    background-color: white;
-    border-radius: 5px;
-    transform: skew(-10deg);
+header a {
+    /* text-align: left; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    padding-right: 2%;
+    border-bottom-style: solid;
+    border-bottom-color: red;
 }
 
-nav a {
-    color: aliceblue;
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* margin-bottom: 1%; */
-    margin-left: 2%;
-    padding: 0.3em;
-    background-color: rgba(255, 255, 255, 0.082);
-    border-radius: 5px;
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
-.corpo {
-    height: 600px;
-    border-radius: 10px;
-    background-color: rgba(97, 94, 83, 0.233);
-    /* background-color: var(--cor); */
+#linkedin {
+    margin-top: 6px;
+}
+#instagram {
+    margin-top: 12px;
+    margin-left: -25px;
+}
+
+#corpo {
+    background-color: rgb(40, 42, 54);
+    border-radius: 5px;
+    /* height: 700px; */
 }
