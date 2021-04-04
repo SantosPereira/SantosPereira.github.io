@@ -20,9 +20,10 @@ body {
 #tela {
     background-color: rgba(16, 18, 26, 0.815);
     z-index: 1;
-    width: 1360px;
+    width: 1361px;
     margin-left: -20px;
     margin-top: -10px;
+    margin-bottom: -20px;
     height: 2000px;
 }
 
@@ -115,15 +116,26 @@ header a:hover {
 }
 #impacto p {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 800;
+    font-size: 24px;
     color: var(--vermelho-escuro);
 }
 
 
 
 #corpo {
-    background-color: rgb(40, 42, 54);
-    border-radius: 5px;
+    float: right;
+    margin-top: 800px;
+    margin-right: 20px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.945);
+    border: solid 3px;
+    border-left-color: var(--azul);
+    border-bottom-color: var(--vermelho-padrao);
+    border-right-color: var(--amarelo);
+    border-top-color: var(--verde);
+    border-radius: 15px;
     /* height: 700px; */
 }
