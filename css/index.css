@@ -189,11 +189,10 @@ header a:hover {
     justify-content: center;
 }
 #portifolio {
-    
+    margin-top: 100px;
 }
 #portifolio ul {
     display: flex;
-    box-sizing: border-box;
     position: relative;
 
 }
@@ -216,6 +215,9 @@ header a:hover {
 }
 #contato a, #contato p {
     margin-top: 10px;
+}
+#contato a:hover, #contato p:hover {
+    color: var(--vermelho-escuro)
 }
 #contato h3 {
     margin-left: -30px;
