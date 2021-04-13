@@ -156,102 +156,78 @@ header a:hover {
     color: var(--vermelho-escuro);
 }
 
-#corpo {
+#caixa-sobre_mim {
     height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+#caixa-portifolio {
+    height: 700px;
+    background-color: aliceblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#caixa-contato {
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 #sobre_mim {
     float: right;
     margin-top: 200px;
     margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.945);
-    border: solid 3px;
-    border-left-color: var(--azul);
-    border-bottom-color: var(--vermelho-padrao);
-    border-right-color: var(--amarelo);
-    border-top-color: var(--verde);
+    border: solid red 3px;
     border-radius: 15px;
 }
 
 
-
-
-
-/*
-* {
-    margin: 0;
-    padding: 0;
+#caixa-portifolio h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#portifolio {
+    
+}
+#portifolio ul {
+    display: flex;
     box-sizing: border-box;
+    position: relative;
+
+}
+#portifolio li {
+    margin: 5px;
+    list-style-type: none;
 }
 
-#corpo {
+
+
+#contato {
+    margin-top: 120px;
+    margin-left: 200px;
+    text-align: left;
+}
+#contato h1 {
+    margin-left: -90px;
+    font-size: 2.8rem;
+    border-radius: 10px;
+}
+#contato a, #contato p {
+    margin-top: 10px;
+}
+#contato h3 {
+    margin-left: -30px;
+    margin-top: 30px;
+}
+
+
+footer {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background: #000;
 }
-
-#sobre_mim {
-    float: right;
-    margin-top: 200px;
-    margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.945);
-    border: solid 3px;
-    border-left-color: var(--azul);
-    border-bottom-color: var(--vermelho-padrao);
-    border-right-color: var(--amarelo);
-    border-top-color: var(--verde);
-    border-radius: 15px;
-}
-
-#sobre_mim {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: linear-gradient(45deg, transparent, transparent 40%, #38b6ff);
-    animation: GradientLoader 1s linear infinite;
-}
-
-@keyframes GradientLoader {
-    0% {
-        transform: rotate(0deg);
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-
-#sobre_mim::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    bottom: 6px;
-    left: 6px;
-    right: 6px;
-    background: #000;
-    border-radius: 50%;
-    z-index: 10;
-}
-
-#sobre_mim::after {
-    content: '';
-    position: absolute;
-    top: 6px;
-    bottom: 6px;
-    left: 6px;
-    right: 6px;
-    background: linear-gradient(45deg, transparent, transparent 40%, #38b6ff);
-    border-radius: 50%;
-    z-index: 1;
-    filter: blur(50px);
-}
-*/
