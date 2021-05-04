@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('animations.css');
+
+/* Variáveis */
+:root {
+    /* Paleta de cores */
+    --azul: rgba(2, 109, 209, 0.938);
+    --vermelho-padrao: red;
+    --vermelho-escuro: rgb(182, 17, 17);
+    --vermelho-suave: rgb(214, 82, 49);
+    --amarelo: rgb(228, 224, 32);
+    --verde: rgb(47, 202, 47);
+}
+
+
+/* -------------   Aplicavel a todo o documento   -----------------  */
+body {
+    color: aliceblue;
+    margin: 0;
+    background-color: #000;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+/*  -----------------------------------------------------------------  */
+
+
+
+#background {
+    margin-left: 0;
+    background: url('../media/background_main.jpg') no-repeat top right fixed;
+    background-size: 360px;
+    padding: 0;
+}
+
+#tela {
+    background-color: rgba(16, 18, 26, 0.815);
+    z-index: 1;
+    width: fit-content;
+    margin-bottom: -20px;
+    height: 700px;
+}
+
+#titulo {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 300px;
+}
+
+header {
+    background-color: rgba(16, 18, 26, 0.904);
+    margin-bottom: 5px;
+}
+
+header a {
+    /* text-align: left; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    padding-left: 2px;
+    padding-right: 2%;
+    /* transition: background 1s; esse é conjunto... */
+}
+/*
+header a:hover {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    background: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.171));
+    background: red; desse
+}*/
+
+
+#link1:hover {
+    border-bottom-style: solid;
+    border-bottom-color: var(--azul);
+    color: var(--azul);
+}
+#link2:hover {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    color: red;
+}
+#link3:hover {
+    border-bottom-style: solid;
+    border-bottom-color: var(--amarelo);
+    color: var(--amarelo);
+}
+#link4:hover {
+    border-bottom-style: solid;
+    border-bottom-color: var(--verde);
+    color: var(--verde);
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+#linkedin {
+    margin-top: 6px;
+    border-bottom-style: none;
+    /* border-bottom-color: transparent; */
+}
+#linkedin:hover {
+    transition: transform 0.1s;
+    transform: scale(1.3);
+}
+#instagram {
+    margin-top: 12px;
+    margin-left: -35px;
+    border-bottom-style: none;
+    /* border-bottom-color: transparent; */
+}
+#instagram:hover {
+    transition: transform 0.1s;
+    transform: scale(1.3);
+}
+
+
+#impacto {
+    width: 500px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+#impacto h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: -25px;
+    color: aliceblue;
+}
+#impacto h3 {
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+#impacto p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--vermelho-escuro);
+}
+
+#caixa-sobre_mim {
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#caixa-portifolio {
+    height: 700px;
+    background-color: aliceblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#caixa-contato {
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#sobre_mim {
+    float: right;
+    margin-top: 200px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.945);
+    border: solid red 3px;
+    border-radius: 15px;
+}
+
+
+#caixa-portifolio h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#portifolio {
+    margin-top: 100px;
+}
+#portifolio ul {
+    display: flex;
+    position: relative;
+
+}
+#portifolio li {
+    margin: 5px;
+    list-style-type: none;
+}
+
+
+
+#contato {
+    margin-top: 120px;
+    margin-left: 200px;
+    text-align: left;
+}
+#contato h1 {
+    margin-left: -90px;
+    font-size: 2.8rem;
+    border-radius: 10px;
+}
+#contato a, #contato p {
+    margin-top: 10px;
+}
+#contato a:hover, #contato p:hover {
+    color: var(--vermelho-escuro)
+}
+#contato h3 {
+    margin-left: -30px;
+    margin-top: 30px;
+}
+
+
+footer {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
