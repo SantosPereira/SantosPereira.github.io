@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 @import url('animations.css');
 
+/* -------------------- Anotações ------------------ */
+/* Regra de três: 
+
+
+300 -> 250
+200 ->  x
+
+
+*/
+/* ------------------------------------------------- */
+
 /* Variáveis */
 :root {
     /* Paleta de cores */
@@ -184,6 +195,11 @@ header a:hover {
 }
 
 
+
+
+
+
+
 #caixa-portifolio h1{
     padding-top: 30px;
     display: flex;
@@ -201,6 +217,18 @@ header a:hover {
     margin: 5px;
     list-style-type: none;
 }
+
+
+.port-items {
+    width: 200px;
+    height: 125px;
+}
+
+
+
+
+
+
 
 
 
