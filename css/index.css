@@ -5,8 +5,8 @@
 /* Regra de três: 
 
 
-300 -> 250
-200 ->  x
+250 -> 225
+166 ->  x
 
 
 */
@@ -206,7 +206,7 @@ header a:hover {
 #portifolio ul {
     display: flex;
     position: relative;
-
+    margin-left: 50px;
 }
 #portifolio li {
     margin: 5px;
@@ -215,8 +215,8 @@ header a:hover {
 
 
 .port-items {
-    width: 250px;
-    height: 166px;
+    width: 225px;
+    height: 149px;
 }
 
 
