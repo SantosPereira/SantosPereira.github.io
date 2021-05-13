@@ -21,6 +21,8 @@
     --vermelho-suave: rgb(214, 82, 49);
     --amarelo: rgb(228, 224, 32);
     --verde: rgb(47, 202, 47);
+
+    --cinza: rgb(110, 110, 110);
 }
 
 
@@ -146,6 +148,19 @@ header a:hover {
     float: left;
     margin-left: 200px;
     margin-top: 100px;
+
+    animation: gamer 8s linear infinite;
+}
+
+@keyframes gamer {
+    from {
+        filter: grayscale(15%);
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: grayscale(25%);
+        filter: hue-rotate(360deg);
+    }
 }
 
 #impacto h1 {
@@ -160,12 +175,15 @@ header a:hover {
     font-size: 20px;
     margin-bottom: 10px;
     margin-left: 3px;
+    /* color: var(--verde); */
 }
 #impacto p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 24px;
-    color: var(--vermelho-escuro);
+    text-decoration-line: underline;
+    /* text-decoration-style: wavy; */
+    text-decoration-color: var(--vermelho-padrao);
 }
 
 #caixa-sobre_mim {
