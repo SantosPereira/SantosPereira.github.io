@@ -1,8 +1,0 @@
-@keyframes vai{
-    0%{
-        transform: translate(100px)
-    }
-    100%{
-        transform: translateX(0)
-    }
-}
